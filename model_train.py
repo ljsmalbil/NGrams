@@ -27,3 +27,5 @@ with open('text.txt', 'w') as f:
 textgen = textgenrnn()
 textgen.train_from_file('text.txt', num_epochs=6)
 
+
+
